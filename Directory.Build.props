@@ -1,0 +1,31 @@
+<Project>
+	
+	<PropertyGroup>
+		<MinimumRequiredDmVersion>10.5.9.0 - 16293</MinimumRequiredDmVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="..\.editorconfig">
+			<Link>Properties\.editorconfig</Link>
+		</Content>
+		<AdditionalFiles Include="..\allowed_words.dic">
+			<Link>Properties\allowed_words.dic</Link>
+		</AdditionalFiles>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="StyleCop.Analyzers">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+
+		<PackageReference Include="Skyline.DataMiner.CICD.CSharpAnalysis.Analyzer">
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Skyline.DataMiner.Utils.SecureCoding.Analyzers">
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<!-- Import user-specific overrides -->
+	<Import Project="Directory.Build.props.user" Condition="Exists('Directory.Build.props.user')" />
+</Project>

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Skyline.DataMiner.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<RootNamespace>Skyline.DataMiner.Solutions.Relationships.GQI</RootNamespace>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<DataMinerType>AdHocDataSource</DataMinerType>
+		<GenerateDataMinerPackage>False</GenerateDataMinerPackage>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Skyline.DataMiner.Dev.Common" />
+		<PackageReference Include="Skyline.DataMiner.Files.SLAnalyticsTypes" />
+		<PackageReference Include="Skyline.DataMiner.Dev.Utils.Solutions.Relationships.GQI" />
+	</ItemGroup>
+</Project>

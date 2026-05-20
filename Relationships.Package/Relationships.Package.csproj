@@ -1,0 +1,21 @@
+﻿<Project Sdk="Skyline.DataMiner.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<DataMinerType>Package</DataMinerType>
+		<GenerateDataMinerPackage>True</GenerateDataMinerPackage>
+		<!-- Do NOT fill in the Organization Token here. This points to either an Environment Variable skyline__sdk__dataminertoken holding the organization token or a Visual Studio User Secret holding the token. -->
+		<CatalogPublishKeyName>skyline:sdk:dataminertoken</CatalogPublishKeyName>
+		<CatalogDefaultDownloadKeyName>skyline:sdk:dataminertoken</CatalogDefaultDownloadKeyName>
+		<UserSecretsId>6e7e828c-f619-464a-aabc-ec0be60d8ea9</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Skyline.DataMiner.Core.AppPackageInstaller" />
+		<PackageReference Include="Skyline.DataMiner.Core.DataMinerSystem.Automation" />
+		<PackageReference Include="Skyline.DataMiner.Dev.Automation" />
+	</ItemGroup>
+</Project>

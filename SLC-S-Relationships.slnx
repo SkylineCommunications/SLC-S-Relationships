@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="allowed_words.dic" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Build.props.user" />
+    <File Path="Directory.Packages.props" />
+    <File Path="global.json" />
+    <File Path="LICENSE.txt" />
+  </Folder>
+  <Folder Name="/Solution Items/.github/">
+    <File Path=".github/CODEOWNERS" />
+    <File Path=".github/dependabot.yml" />
+  </Folder>
+  <Folder Name="/Solution Items/.github/workflows/">
+    <File Path=".github/workflows/Master Workflow.yml" />
+  </Folder>
+  <Project Path="Relationships.GQI/Relationships.GQI.csproj" />
+  <Project Path="Relationships.Package.Registration/Relationships.Package.Registration.csproj" />
+  <Project Path="Relationships.Package/Relationships.Package.csproj" />
+</Solution>
