@@ -22,9 +22,3 @@ A centralized relationship model opens the door to many possibilities, such as:
 - **Hierarchy modeling** – Represent parent-child or layered structures between elements, services, or other DataMiner objects.
 - **Topology visualization** – Use the stored relationships as input for visual overviews or custom dashboards showing your network topology.
 - **Cross-solution integration** – Share a common relationship model across multiple solutions to avoid duplication and ensure consistency.
-
-## Technical Reference
-
-For more information on how to integrate with the Relationships data model from your own solutions, refer to the documentation in the repository.
-
-For additional help, please reach out to arne.maes@skyline.be.

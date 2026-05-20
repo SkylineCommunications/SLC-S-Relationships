@@ -45,14 +45,14 @@ short_description: The Relationships solution gives you the tools to establish r
 # A valid URL that points to the source code.
 #   A valid URL
 #   Max length: 2048 characters
-source_code_url: https://github.com/SkylineCommunications/SLC-S-ObjectLinking
+source_code_url: https://github.com/SkylineCommunications/SLC-S-Relationships
 
 # [Optional]
 # A valid URL that points to documentation.
 #   A valid URL
 #   Max length: 2048 characters
 # Currently not shown in the Catalog UI but will be supported in the near future.
-documentation_url: https://github.com/SkylineCommunications/SLC-S-ObjectLinking/tree/main/docs
+documentation_url:
 
 # [Optional]
 # People who are responsible for this Catalog item. Might be developers, but this is not required.
@@ -70,6 +70,7 @@ owners:
 #   Cannot contain leading or trailing whitespace characters.
 tags:
   - Standard Data Model
+  - Relationships
 
 # [Optional]
 # The ID of the vendor.
