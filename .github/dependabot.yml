@@ -4,6 +4,15 @@
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 version: 2
+registries:
+  public:
+    type: nuget-feed
+    url: https://api.nuget.org/v3/index.json
+  slc-github:
+    type: nuget-feed
+    url: https://nuget.pkg.github.com/SkylineCommunications/index.json
+    username: ${{ secrets.PRIVATE_NUGET_USERNAME }}
+    password: ${{ secrets.PRIVATE_NUGET_PASSWORD }}
 updates:
   - package-ecosystem: "nuget" # See documentation for possible values
     # directory: "/"
