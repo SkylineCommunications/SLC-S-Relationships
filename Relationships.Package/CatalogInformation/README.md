@@ -6,10 +6,11 @@ When building complex DataMiner systems, objects rarely exist in isolation. Serv
 
 This solution gives you the tools to establish and manage relationships between objects in DataMiner, allowing you to build a rich network of related objects. Whether you need to track dependencies, model hierarchies, or simply associate related items, the Relationships solution provides a consistent and flexible way to do so.
 
-It comes with:
+## Key Features
 
-- A **Standard Data Model** for storing and managing relationships between DataMiner objects.
-- A **low-code app** for browsing, creating, and reviewing relationships across your DataMiner System.
+- **Manage relationships between DataMiner objects** – Create and maintain a rich network of dependencies, hierarchies, and associations across elements, services, and other objects.
+- **Centralized Standard Data Model** – Store relationships in a consistent, reusable model that other solutions can build upon, avoiding duplication across your DataMiner System.
+- **Browse and edit via low-code app** – Explore, create, and review relationships through a dedicated low-code application included with the solution.
 
 ## Overview
 
@@ -17,8 +18,10 @@ It comes with:
 
 ## Use Cases
 
-A centralized relationship model opens the door to many possibilities, such as:
+- **Signal chain dependency tracking** – Model a broadcaster's signal chain from satellite receiver down to IRD and playout encoder. When a device goes down, immediately identify all downstream objects affected.
+- **Hierarchy modeling** – Represent parent-child or layered structures between elements, services, or other DataMiner objects to reflect your real operational topology.
+- **Cross-solution relationship sharing** – Share a common relationship model across multiple solutions to avoid duplication and ensure consistency throughout your DataMiner System.
 
-- **Hierarchy modeling** – Represent parent-child or layered structures between elements, services, or other DataMiner objects.
-- **Topology visualization** – Use the stored relationships as input for visual overviews or custom dashboards showing your network topology.
-- **Cross-solution integration** – Share a common relationship model across multiple solutions to avoid duplication and ensure consistency.
+## Prerequisites
+
+- DataMiner **10.5 Feature Release** or **10.5.0 Main Release** or higher
