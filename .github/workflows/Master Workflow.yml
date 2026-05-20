@@ -6,7 +6,7 @@ on:
       - '**'
     tags:
       - "[0-9]+.[0-9]+.[0-9]+-**"
-	  
+
   workflow_dispatch:
 
 jobs:
@@ -15,4 +15,4 @@ jobs:
     uses: SkylineCommunications/_ReusableWorkflows/.github/workflows/Master Workflow.yml@main
     with:
       configuration: Release
-      sonarCloudProjectName: ${{ vars.SONAR_NAME }}
+      sonarcloud-project-name: ${{ vars.SONAR_NAME }}
