@@ -24,4 +24,4 @@ This solution gives you the tools to establish and manage relationships between 
 
 ## Prerequisites
 
-- DataMiner **10.5 Feature Release** or **10.5.0 Main Release** or higher
+- DataMiner **10.5.9 Feature Release** or **10.6 Main Release** or higher
