@@ -18,8 +18,10 @@
 		<PackageVersion Include="Skyline.DataMiner.Dev.Common" Version="10.5.9.2" />
 		<PackageVersion Include="Skyline.DataMiner.Dev.Protocol" Version="10.5.9.2" />
 		<PackageVersion Include="Skyline.DataMiner.Dev.Utils.SDM.Abstractions" Version="1.0.1" />
-		<PackageVersion Include="Skyline.DataMiner.Dev.Utils.Solutions.Relationships.Automation" Version="1.0.0-rc1" />
-		<PackageVersion Include="Skyline.DataMiner.Dev.Utils.Solutions.Relationships.GQI" Version="1.0.0-rc1" />
+		<PackageVersion Include="Skyline.DataMiner.Dev.Utils.Solutions.Relationships.Automation" Version="1.0.0" />
+		<PackageVersion Include="Skyline.DataMiner.Dev.Utils.Solutions.Relationships.Common" Version="1.0.0" />
+		<PackageVersion Include="Skyline.DataMiner.Dev.Utils.Solutions.Relationships.GQI" Version="1.0.0" />
+		<PackageVersion Include="Skyline.DataMiner.Dev.Utils.Solutions.Relationships.Protocol" Version="1.0.0" />
 		<PackageVersion Include="Skyline.DataMiner.Files.Skyline.DataMiner.Storage.Types" Version="10.5.9.2" />
 		<PackageVersion Include="Skyline.DataMiner.Files.SLAnalyticsTypes" Version="10.5.9.2" />
 		<PackageVersion Include="Skyline.DataMiner.Files.SLNetTypes" Version="10.5.9.2" />

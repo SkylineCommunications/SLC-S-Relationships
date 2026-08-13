@@ -67,33 +67,13 @@ namespace Relationships.Install.Registration
 			// Register the solution
 			var solution = new SolutionRegistration
 			{
-				Identifier = "f949ad1f-367c-4966-8c69-8525ceb267cc",
+				Identifier = "06e517f4-5041-41a1-a186-86cdbf0410b9",
 				ID = "06e517f4-5041-41a1-a186-86cdbf0410b9",
 				DisplayName = "Relationships",
 				Version = context.Version,
 			};
 
 			registrar.Solutions.CreateOrUpdate(new[] { solution });
-
-			var entityDescriptor = new ModelRegistration
-			{
-				Identifier = "ebd8dc13-4118-4653-a6b0-ecb9f0a7db29",
-				Name = "entity_descriptor",
-				DisplayName = "Entity Descriptor",
-				Version = "1.0.0",
-				Solution = solution,
-			};
-
-			var relation = new ModelRegistration
-			{
-				Identifier = "1f87bdd6-9955-4663-a257-94fe79eec96e",
-				Name = "relation",
-				DisplayName = "Relation",
-				Version = "1.0.0",
-				Solution = solution,
-			};
-
-			registrar.Models.CreateOrUpdate(new[] { entityDescriptor, relation });
 		}
 	}
 }
