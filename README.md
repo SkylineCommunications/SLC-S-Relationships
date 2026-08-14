@@ -1,6 +1,7 @@
-# Relationships
+ï»¿# SLC-S-Relationships
 
-## About
+> [!TIP]
+> The outcome of this repository is available in the Catalog: [Relationships | Catalog | dataminer.services](https://catalog.dataminer.services/details/06e517f4-5041-41a1-a186-86cdbf0410b9)
 
 When building complex DataMiner systems, objects rarely exist in isolation. Services depend on elements, elements depend on each other, and understanding those connections is key to operating your system effectively.
 
@@ -11,6 +12,7 @@ It comes with:
 - A **Standard Data Model** for storing and managing relationships between DataMiner objects.
 - A **low-code app** for browsing, creating, and reviewing relationships across your DataMiner System.
 
+
 ## Overview
 
 ![Overview](./Relationships.Package/CatalogInformation/Images/Overview.png)
@@ -19,12 +21,10 @@ It comes with:
 
 A centralized relationship model opens the door to many possibilities, such as:
 
-- **Hierarchy modeling** – Represent parent-child or layered structures between elements, services, or other DataMiner objects.
-- **Topology visualization** – Use the stored relationships as input for visual overviews or custom dashboards showing your network topology.
-- **Cross-solution integration** – Share a common relationship model across multiple solutions to avoid duplication and ensure consistency.
+- **Hierarchy modeling** â€“ Represent parent-child or layered structures between elements, services, or other DataMiner objects.
+- **Topology visualization** â€“ Use the stored relationships as input for visual overviews or custom dashboards showing your network topology.
+- **Cross-solution integration** â€“ Share a common relationship model across multiple solutions to avoid duplication and ensure consistency.
 
-## Technical Reference
+## Technical Documentation
 
-For more information on how to integrate with the Relationships data model from your own solutions, refer to the documentation in the repository.
-
-For additional help, please reach out to arne.maes@skyline.be.
+The technical documentation for the Relationships solution is available in the docs of DevPack: [Technical Documentation](https://github.com/SkylineCommunications/Skyline.DataMiner.Dev.Utils.Solutions.Relationships/tree/1.0.X/docs) folder. It provides detailed information on the architecture, data model, and usage of the solution.
